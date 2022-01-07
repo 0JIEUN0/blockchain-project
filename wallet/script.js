@@ -1,4 +1,4 @@
-import { PROJECT_ID, PROJECT_SECREAT } from "../.env";
+import { PROJECT_ID } from "../.env";
 
 let web3;
 
