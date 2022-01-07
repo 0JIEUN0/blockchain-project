@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>✨ wallet ✨</title>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-tx/ethereumjs-tx-1.3.3.min.js"></script>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div id="send-info">
+            <div>
+                <label for="">From Private Key: </label>
+                <input type="text" id="from-privat-key"></input>
+            </div>
+            <div>
+                <label for="">From Account: </label>
+                <input type="text" id="from-account"></input>
+            </div>
+            <div>
+                <label for="">To Account: </label>
+                <input type="text" id="to-account"></input>
+            </div>
+            <div>
+                <label for="">Value: </label>
+                <input type="text" id="value"></input>
+            </div>
+            <div>
+                <label for="">Gas Price: </label>
+                <input type="text" id="gas-price"></input>
+            </div>
+        </div>
+        <div id="btn" >
+            <button id="submit">send</button>
+            <button id="create-wallet">create wallet</button>
+        </div>
+    </body>
+</html>
