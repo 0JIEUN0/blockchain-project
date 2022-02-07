@@ -1,5 +1,5 @@
 //import { PROJECT_ID } from "../.env";
-const PROJECT_ID="e5e0c6620e4f491fb8b6c74d871e952b";
+const PROJECT_ID="";
 
 let web3;
 let compilerVersion;
